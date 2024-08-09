@@ -1,0 +1,124 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+/* start custom css */
+.text-sm-custom {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.text-custom-black {
+  color: #333333;
+}
+
+.authentication-buttons {
+  /* width: 110px; */
+}
+
+.text-gray-rgba-color {
+  color: rgba(31, 31, 31, 0.6);
+}
+
+.left-paragraph {
+  font-size: 21.75px;
+  line-height: 31.92px;
+  text-align: justify;
+}
+
+.btn-orange-color {
+  background: #FB7232 !important;
+}
+
+.text-orange-color {
+  color: #FB7232;
+}
+
+.text-gray-color {
+  color: #676879;
+}
+
+.btn-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.text-custom-orange {
+  color: #FC6F43;
+}
+
+.custom-logo {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.line-height-35 {
+  line-height: 3.5rem;
+}
+
+.profile-members .shadow-custom {
+  box-shadow: 18px 42px 24px 0 rgb(0, 0, 0, 0.1);
+}
+
+.text-custom-gray {
+  color: rgba(31, 31, 31, 0.4);
+}
+
+.custom-border-radius {
+  border-radius: 56.25px;
+}
+
+.vector-image {
+  background-image: url('../../public/swirl.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1820px;
+}
+
+/* end custom css */
+@media (hover: hover) {
+  a:hover {
+    /* background-color: hsla(160, 100%, 37%, 0.2); */
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .vector-image {
+    background-image: none;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .vector-image {
+    background-image: url('../../public/swirl.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1991.9px;
+  }
+}
+@media screen and (max-width:300px) {
+  .min-width-300 {
+    display: flex;
+    flex-direction: column!important;
+  }
+}
